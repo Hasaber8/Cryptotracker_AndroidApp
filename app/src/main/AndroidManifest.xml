@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cryptotracker" >
         <activity
-            android:name=".splash_screen"
+            android:name=".Activites.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Activites.MainActivity"
+            android:name=".splash_screen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
